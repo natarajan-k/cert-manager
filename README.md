@@ -33,7 +33,7 @@ A ClusterIssuer allows you to create certificates for multiple namespaces.
 ### Self-Signed ClusterIssuer
 
 A self-signed ClusterIssuer in cert-manager is used to generate certificates that are signed by the cluster itself, without relying on an external Certificate Authority. It is typically used for internal communication, testing, etc.   
-It is not recommended for external communication.  
+It is not recommended for external or production systems communication.  
 This is a sample yaml for creating a self-signed clusterissuer. 
 
 ```
